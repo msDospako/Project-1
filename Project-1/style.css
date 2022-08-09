@@ -79,24 +79,20 @@ ul{
 }
 
 .cont-2{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 32px;
     padding: 50px;
-  
   }
-  .content{
-    
+.content{
     display: flex;
     align-items: center;
     justify-content:space-between;
   }
-  .content .one, .two, .three, .four{
+.content .one, .two, .three, .four{
     text-align: center;
-    
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -104,18 +100,94 @@ ul{
     margin: 52px;
     width: 200px;
   }
-  
-  img {
+img {
     width: 100px;
     height: 100px;
     border:3px solid #3882F6;
     border-radius: 5px;
-
   }
-  
-  .title {
+.title {
     font-size: 36px;
     font-weight: 900;
+    color: #1F2937;
     display: flex;
     justify-content: center;
   }
+.text{
+    color: #1F2937;
+  }
+
+.cont-3{
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 100px;
+
+  }
+.uno{
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+.dos{
+    font-size: 20px;
+    font-family: light italic;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content:flex-end;
+  }
+
+  .cont-4{
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 10px;
+    color: #f9faf8;
+    display: flex;
+    flex: 1;
+    justify-content:space-around;
+    align-items: center;
+  }
+.tres{
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  }
+.cuatro{
+    font-size: 20px;
+    font-weight: lighter;
+    display: flex;
+    justify-content:flex-end;
+  }
+  .sign{
+    width: 190px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-weight: bold;
+    box-shadow: none;
+    border: 2px solid #F9faf9;
+    border-radius: 2px;
+}
+.sign-b{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    align-items: center;
+    padding: 30px;
+}
